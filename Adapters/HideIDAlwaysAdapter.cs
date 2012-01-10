@@ -7,9 +7,9 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using System.Text.RegularExpressions;
-using fbs;
+using NathanaelJones;
 
-namespace fbs.Adapters
+namespace NathanaelJones.WebFormsFixes
 {
     /// <summary>
     /// Sets the ID property of the control to null at render time, preventing it from being rendered.

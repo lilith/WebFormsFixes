@@ -33,7 +33,7 @@ namespace NathanaelJones.WebFormsFixes
 
     /// <summary>
     /// Enapsulates a mutable (changable) site-relative URL. Note that "" is equivalent to the application root directory in YRL notation (the ~/ is implicit, always).
-    /// QueryFindYrlVerifyID can be removed if external dependencies aren't allowed. It uses fbs.Articles.Index.FindPathByID()
+    /// QueryFindYrlVerifyID can be removed if external dependencies aren't allowed. It uses NathanaelJones.Articles.Index.FindPathByID()
     /// This class is designed to standardize path interpretation and conversion.
     /// </summary>
     [Serializable()]

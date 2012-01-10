@@ -7,7 +7,7 @@
         <member name="T:NathanaelJones.WebFormsFixes.yrl">
             <summary>
             Enapsulates a mutable (changable) site-relative URL. Note that "" is equivalent to the application root directory in YRL notation (the ~/ is implicit, always).
-            QueryFindYrlVerifyID can be removed if external dependencies aren't allowed. It uses fbs.Articles.Index.FindPathByID()
+            QueryFindYrlVerifyID can be removed if external dependencies aren't allowed. It uses NathanaelJones.Articles.Index.FindPathByID()
             This class is designed to standardize path interpretation and conversion.
             </summary>
         </member>
@@ -390,14 +390,14 @@
             Indeterminant form
             </summary>
         </member>
-        <member name="T:fbs.Adapters.HideIDAdapter">
+        <member name="T:NathanaelJones.WebFormsFixes.HideIDAdapter">
             <summary>
             Allows controls to prevent rendering of the "id" attribute. 
             Adds support for the HideID attribute to classes that inherit from HtmlControl and WebControl.
             If HideID="true", the ID property will be set to null at render time, causing no id to be rendered.
             </summary>
         </member>
-        <member name="T:fbs.Adapters.HideIDAlwaysAdapter">
+        <member name="T:NathanaelJones.WebFormsFixes.HideIDAlwaysAdapter">
             <summary>
             Sets the ID property of the control to null at render time, preventing it from being rendered.
             Affects classes that inherit from HtmlControl and WebControl. Applied via App_Browsers to certain controls.
@@ -743,7 +743,7 @@
             <param name="parentsOnly">If true, only the outermost matching parents will be returned.</param>
             <returns></returns>
         </member>
-        <member name="T:fbs.Adapters.FixHtmlAnchorAmpersandAdapter">
+        <member name="T:NathanaelJones.WebFormsFixes.FixHtmlAnchorAmpersandAdapter">
             <summary>
             Patches the ampersand bug in HtmlAnchor controls.
             Affects HtmlAnchor controls (&lt;a href="" runat="server" /&gt;).
