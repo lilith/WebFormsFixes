@@ -1,0 +1,23 @@
+
+        /// <summary>
+        /// A tuple containing a start index and a length.
+        /// </summary>
+        protected struct TextSpan
+        {
+            /// <summary>
+            /// Create a new TextSpan instance with the specified values.
+            /// </summary>
+            /// <param name="startIndex"></param>
+            /// <param name="length"></param>
+            public TextSpan(int startIndex, int length)
+            {
+                this.start = startIndex;
+                this.length = length;
+            }
+            public int start;
+            public int length;
+            /// <summary>
+            /// Returns start + length. The index of the first character after the span
+            /// </summary>
+            public int lastChar { get { return start + length; } }
+        }
