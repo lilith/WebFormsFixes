@@ -2,13 +2,14 @@
 
 A small collection of utilities to make working with Microsoft WebForms a tiny bit more bearable.
 
-I wrote these as part of an excellent hybrid CMS, and decided to extract them for more generic use.
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+I wrote these as part of an hybrid file-based CMS, and decided to extract them for more generic use.
 
 I have not had the opportunity to test these, and may have introduced typo-style errors while re-extracting 
 them from the CMS. I previously published extracted versions along with the two blog articles referenced below, 
 but lost them along with much other website data.
 
-If you do have any problems, either (a) fork, fix, and send me a pull request, or (b) e-mail support@imageresizing.net with the problem. I do intend to keep these utilities maintained.
 
 Related articles:
 
